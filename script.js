@@ -9,8 +9,10 @@ $(document).ready(function () {
         weatherForecast(searchTerm);
     });
 
-function weatherFunction(searchTerm) {
-    
+    function weatherFunction(searchTerm) {
+  
+
+
     $.ajax({
         type: "GET",
-        url: "api.openweathermap.org/data/2.5/forecast?q={city name}&appid={f467738ba5027fc3bee62c611bd30bce}",
+        url: "api.openweathermap.org/data/2.5/forecast?q=" + searchTerm + "&appid=f467738ba5027fc3bee62c611bd30bce&units=imperial",
