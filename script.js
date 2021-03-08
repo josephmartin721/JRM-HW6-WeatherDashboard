@@ -7,12 +7,13 @@ $(document).ready(function () {
         $("#search-value").val("");
         weatherFunction(searchTerm);
         weatherForecast(searchTerm);
-    });
+    }
+})
 
     function weatherFunction(searchTerm) {
   
-
-
     $.ajax({
-        type: "GET",
-        url: "api.openweathermap.org/data/2.5/forecast?q=" + searchTerm + "&appid=f467738ba5027fc3bee62c611bd30bce&units=imperial",
+        url: "api.openweathermap.org/data/2.5/forecast?q=SanAntonio,us&mode=xml&appid={f467738ba5027fc3bee62c611bd30bce}",
+        method: "GET",
+    })
+});
