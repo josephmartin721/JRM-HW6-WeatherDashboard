@@ -10,10 +10,10 @@ h1 {
 }
 
 body {
-    background-color:bisque;
+    background-color: rgb(83, 83, 182);
 }
 
-.sidebar {
+.list-group-data {
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
 }
