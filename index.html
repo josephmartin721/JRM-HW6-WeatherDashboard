@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css"/>
 
     <title>Weather Dashboard</title>
@@ -16,17 +18,17 @@
 <div class="container-fluid">
     <div class="row">
       <aside class="col-lg-3 bg-light">
-        <h5 class="mt-1">Search for a City:</h5>
+        <h5 class="mt-1">Search by City:</h5>
         <div class="form-inline form-group">
           <input class="form-control" type="text" id="search-value" />
           <button class="btn btn-primary" id="search-button"> <i class="fa fa-search"></i> </button>
         </div>
 
+        <ul class="list-group data"></ul>
+
         <div>
-            <div class="sidebar">Weather At Coordinates</div>
-             <br>
-              <p>Weather</p>
-             <br> 
+            <div class="sidebar">Weather</div>
+            <br></br>
         </div>
 
 
