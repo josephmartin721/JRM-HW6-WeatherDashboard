@@ -1,6 +1,6 @@
 h1 {
     font-family: fantasy;
-    font-weight: 100;
+    font-weight: bolder;
     text-align: center;
     background-color: cornflowerblue;
     border-style: groove;
@@ -9,7 +9,8 @@ h1 {
 
 .mt-1 {
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: xx-large;
 }
 
 body {
@@ -20,5 +21,7 @@ body {
 .list-group-data {
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
+    font-size: larger;
     text-emphasis-color: red;
 }
+
