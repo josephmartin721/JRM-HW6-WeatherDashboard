@@ -2,6 +2,9 @@ h1 {
     font-family: fantasy;
     font-weight: 100;
     text-align: center;
+    background-color: cornflowerblue;
+    border-style: groove;
+    border-color: darkblue;
 }
 
 .mt-1 {

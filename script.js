@@ -13,7 +13,7 @@ $(document).ready(function () {
     function weatherFunction(searchTerm) {
   
     $.ajax({
-        url: "api.openweathermap.org/data/2.5/forecast?q=SanAntonio,us&mode=xml&appid={f467738ba5027fc3bee62c611bd30bce}",
+        url: "https://api.openweathermap.org/data/2.5/forecast?q=Houston&appid=f467738ba5027fc3bee62c611bd30bce",
         method: "GET",
     })
 });
